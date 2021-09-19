@@ -1,0 +1,25 @@
+
+Qual é a sequência de comandos para iniciar um repositório Git?
+mkdir (nome_projeto) - cd (nome_projeto) – git init.
+
+Porque aparece o nome do arquivo em vermelho após dar o comando git status?
+Por que o arquivo foi modificado mas ainda não foi adicionado para o commit.
+
+Por que é criado um arquivo .git dentro do seu diretório quando é executado o comando git init?
+Porque ele cria a estrutura do git para controlar, monitorar ou rastrear esse diretório.
+
+Qual é o comando para transitar entre pastas no sistema operacional Linux?
+cd (nome_pasta).
+
+Qual o comando de terminal Linux para criar um arquivo?
+touch (nome_arquivo).
+
+Para que serve o comando git add?
+Para adicionar arquivos modificados no commit.
+
+Qual é o comando git que serve para visualizar todos os commits do repositório desde a criação?
+git log.
+
+a função do comando git add .
+Adicionar todos os arquivos modificados.
+

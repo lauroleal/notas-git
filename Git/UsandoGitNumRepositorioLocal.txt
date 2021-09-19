@@ -1,0 +1,71 @@
+Criando um novo projeto localmente...
+
+definindo o usuario / a conta no pront do GitBash:
+
+>>$ git config --global user.name "seu nome" (Seu nome)
+>>$ git config --global user.email seunome@seuprovedor.com (Seu e-mail)
+
+O passo acima só e necessario na primeira vez / no primeiro uso
+
+Criando uma pasta / diretorio local 
+>>$ mkdir.exe Atividade2 (Criando Uma pasta nome escolhido como exemplo foi Atividade2)
+
+(listando os diretórios / pastas)
+>>$ ls 
+
+(Acessando a pasta / entrando dentro dela para os arquivos)
+>>$ cd atividade2 
+
+(usado para criar um repositório Git vazio ou reinicializar um existente / necessario para aceitar os demais comandos)
+>>$ git init 
+
+Criando um arquivo 
+>>$ touch nome.html
+
+renomeamos um arquivo de texto, onde o arquivo1.txt é o arquivo de origem e o destino é o arquivo2.txt.
+
+>>$ mv arquivo1.txt arquivo2.txt
+
+Para excluir um único arquivo
+>>$ rm filename
+
+Criando ou acessando o conteúdo do arquivo README.md / ou qualquer outro arquivo
+>>$ vim README.md 
+
+Nota: após o comando você entrará automaticamente dentro do arquivo criado.
+aperte i ( no teclado para escrever alguma coisa se não me engano e isso)
+para salvar e sair  ESC e em seguida :wq no teclado.
+
+( Adiciona o conteúdo do arquivo ao índice / prepara para o commit  / monitora os arquivos no repositório do Github
+>>$ git add README.md 
+
+Prepara todos os arquivos para o commit de uma unica vez git add .
+>>$ git add . 
+
+(Comentario sobre as alterações / atualizações / mudanças)
+>>$ git commit -m "hello" 
+
+( Visualizando o historico de alterações /verificando se as coisas estão indo bem)
+>>$ git log 
+
+Nota: caso der algum problema no comando git log e só apertar q no teclado
+
+Caminho do repositório do github criado para o projeto ex : https://github.com/lauroleal/atividade.git 
+>>$ git remote add origin https://github.com/lauroleal/atividade.git 
+
+(aqui vai pedir sua senha / apos isso seu projeto vai direto pro GitHub / atualiza as versões
+>>$ git push -u origin master 
+
+
+-------------------------------------------------------------------------------||------------------------------------------------------------------||
+
+Outros comandos
+
+Usado para subir arquivos alterados para o repositório remoto.
+>>$ git push
+
+Usado para o Git mostrar como está o repositório
+>>$ git status.
+
+
+

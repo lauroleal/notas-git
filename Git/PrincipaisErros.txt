@@ -1,0 +1,6 @@
+
+
+ERRO: master -> master (non-fast-forward)
+git push --force <remote_repository
+
+ >>$ git push --force https://github.com/lauroleal/Aula

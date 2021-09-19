@@ -1,0 +1,36 @@
+Branches no conceito do gitHub são ramificações..
+vc pode copiar uma banch e passar a trabalhar em cima desta 
+preservando a branch principal
+
+
+Criando uma nova Branch
+>>>$ git branc Branch_criada 
+
+Acessando a branch criada
+>>>$ git checkout Branch_criada
+
+Criando uma nova Branch e acessando ela ao mesmo tempo
+>>>$ git checkout -b Branch_criada
+
+mostra as branch criadas e disponiveis
+>>>$ git branch
+
+deletando uma branch
+>>>$ git branch -D Branch_criada 
+
+criando um arquivo
+>>>$ touch nome_qualquer.html
+
+
+adcionando / preparando pra commitar
+>>>$ git add nome_qualquer.html
+
+commitando
+>>>$ git commit -m " texto informando sobre o commit"
+
+enviando para o GitHub
+>>>$ git push origin Branch_criada
+
+mesclando a branch criada com a branch ativa / selecionada
+>>>$ git merge Branch_criada
+

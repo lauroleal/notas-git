@@ -1,0 +1,50 @@
+Exportando um novo projeto remotamente...
+
+
+Clonar o diretorio do projeto escolhido
+>>$ git clone https://github.com/lauroleal/atividade.git 
+
+Remove o diretorio do projeto escolhido
+>>$git remote rm origin
+
+Criando um arquivo 
+>>$ touch exemplo.html
+
+Criando ou acessando o conteúdo de algum dos arquivos exportados
+>>$ vim 
+
+Nota: após o comando você entrará automaticamente dentro do arquivo criado.
+aperte i ( no teclado para escrever alguma coisa se não me engano e isso)
+para salvar e sair  ESC e em seguida :wq no teclado.
+
+ Adiciona o conteúdo do arquivo ao índice / prepara para o commit
+>>$ git add
+
+Prepara todos os arquivos para o commit de uma unica vez git add .
+>>$ git add . 
+
+Comentario sobre as alterações / atualizações / mudanças / informando as alterações para maior controle
+>>$ git commit -m "seu comentário aqui" 
+
+Publicar as alterações
+>>$ git push 
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Outros comandos
+
+Atualizar o repositorio local conforme o repositorio remoto
+>>$ git pull
+
+Juntar as alterações / juntar as branchs / resolver conflitos
+>>$ git merge
+
+informações atuais do repositorio
+>>$ git status
+
+historico das alterações / ver quem fez alterações
+>>$ git log
+
+Codigo base / implementar as alterações sem comprometer
+>>$ git branch <nome arquivo>
+

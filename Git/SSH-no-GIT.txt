@@ -1,0 +1,21 @@
+omando pra criar chave ssh
+
+ssh-keygen -t ed25519 -C meuEmail@gmail.com
+
+// acessar a pasta
+cd /c/Users/anonp/.ssh
+
+$ ls
+id_ed25519  id_ed25519.pub
+
+ cat id_ed25519.pub
+
+//copia a chave
+
+//iniciar o gerenciador de chaves
+com esse comando
+
+eval $(ssh-agent -s)
+
+// fazendo a chave privada gerenciar as requisiçoes da pública 
+ssh-add id_ed25519
